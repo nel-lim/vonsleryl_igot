@@ -1,3 +1,6 @@
+/*instructor john nel lim 
+for final hands-on exam*/
+
 html {
 	scroll-behavior: smooth;
 }
@@ -10,9 +13,7 @@ body {
 	margin: 0;
 }
 .container {
-	max-width: 1160px;
-	margin: 0 auto;
-	display: block;
+
 }
 a , li {
 	text-decoration: none;
@@ -31,9 +32,7 @@ header .header_container {
 	overflow: hidden;
 }
 nav {
-	float: right;
-	height: 100%;
-	line-height: 100px;
+
 }
 nav ul {
 	padding: 0;
@@ -55,7 +54,7 @@ nav ul li a:hover {
 }
 /*hero*/
 .hero_background {
-	background: url("img/hero.jpg") no-repeat top / cover;
+	background: url("/hero.jpg") no-repeat top / cover;
 	position: absolute;
 	height: 900px;
 	width: 100%;
@@ -129,12 +128,7 @@ nav ul li a:hover {
 	padding-right: 500px;
 }
 .about_us p {
-	float: right;
-	width: 759px;
-	height: 66px;
-	font-size: 18px;
-	color: black;
-	line-height: 22px;
+
 }
 /*product*/
 #our_pet {
@@ -172,6 +166,9 @@ nav ul li a:hover {
 	color: black;
 }
 
+/*instructor john nel lim 
+for final hands-on exam*/
+
 .choices a {
 	color:black;
 	background: white;
@@ -199,7 +196,7 @@ nav ul li a:hover {
 	transition: 200ms;
 }
 /*footer*/
-.footer .container {
+ .container {
 	display: block;
 	height: auto;
 	max-width: 100%;
@@ -247,3 +244,7 @@ nav ul li a:hover {
 	padding: 60px 0;
 	margin: 0;
 }
+
+
+/*instructor john nel lim 
+for final hands-on exam*/
