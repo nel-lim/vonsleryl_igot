@@ -13,7 +13,9 @@ body {
 	margin: 0;
 }
 .container {
-
+	width: 1160px;
+	display: block;
+	margin: 0 auto;
 }
 a , li {
 	text-decoration: none;
@@ -32,7 +34,7 @@ header .header_container {
 	overflow: hidden;
 }
 nav {
-
+	float: right;
 }
 nav ul {
 	padding: 0;
@@ -47,6 +49,7 @@ nav ul li a {
 	font-weight: 400px;
 	color: black;
 	padding: 0 25px;
+	line-height: 100px;
 }
 nav ul li a:hover {
 	color: red;
@@ -54,7 +57,7 @@ nav ul li a:hover {
 }
 /*hero*/
 .hero_background {
-	background: url("/hero.jpg") no-repeat top / cover;
+	background: url("img/hero.jpg") no-repeat top / cover;
 	position: absolute;
 	height: 900px;
 	width: 100%;
@@ -128,7 +131,9 @@ nav ul li a:hover {
 	padding-right: 500px;
 }
 .about_us p {
-
+	width: 759px;
+	color: #000;
+	float: right;
 }
 /*product*/
 #our_pet {
